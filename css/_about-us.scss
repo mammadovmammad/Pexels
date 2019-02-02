@@ -1,0 +1,125 @@
+.menu-about{
+    background-blend-mode: darken;
+    background-color: #0000007a;
+    background-size: cover;                    
+    background-repeat:  no-repeat;
+    background-position: center center; 
+      width: 100%;
+      h2{
+          color: white;
+          width: 500px;
+      }
+    a{
+        font-size: $header-font;
+        text-decoration: none;
+        color: #eee;
+        margin: 0px 10px;
+    }
+}
+.menu-navbar{
+    background-color: #232a34;
+}
+
+.subnavbar{
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px 0px;
+    a{
+        margin: 0px 10px;
+        color:#666;
+        text-decoration: none;
+        &:hover{
+            color: #4a90e2;
+        }
+    }
+}
+
+.about-header{
+    background-image: url("../image/about-background.jpg");
+    height: 350px;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  .header-content{
+      text-align: center;
+    padding-top: 120px;
+    h1{
+        margin: 10px 0px;
+    }
+    h1,h3{
+        margin-bottom: 15px;
+        color: white;
+    }
+    h3{
+        width: 50%;
+        margin-left: 370px;
+    }
+  }
+  
+}
+
+.main-content{
+    h1{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+    i{
+        font-size: 70px;
+        font-weight: 600; 
+    }
+}
+
+.container{
+    width: 750px;
+}
+
+.container-footer{
+    background-color: #232a34;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a.register{
+        text-decoration: none;
+        color: #000;
+        padding: 10px 5px;
+        background: #f9f9f9;
+    }
+    .footer-list-pexels{
+        padding: 40px 0px;
+    }
+    .footer-list-service{
+    }
+    p{
+        padding: 15px 0px;
+        color: white;
+        width: 90%;
+    }
+    ul{
+        padding: 35px 0px;
+        li{
+            margin-left: 20px;
+            a{
+                 display: block;
+                 width: 30px;
+                 height: 30px;
+                 line-height: 30px;
+                 text-align: center;
+                 border-radius: 50%;
+                background-color: #cec9c9;
+                color: #333;
+            }
+        }
+    }
+    ul.service-list{
+        color: white;
+    }
+}
