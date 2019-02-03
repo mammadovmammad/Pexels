@@ -1,4 +1,4 @@
-.menu-about{
+.menu{
     background-blend-mode: darken;
     background-color: #0000007a;
     background-size: cover;                    
@@ -12,7 +12,7 @@
     a{
         font-size: $header-font;
         text-decoration: none;
-        color: #eee;
+        color: #ccc;
         margin: 0px 10px;
     }
 }

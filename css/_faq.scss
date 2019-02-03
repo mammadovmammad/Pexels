@@ -1,33 +1,13 @@
-@import 'variables';
-
-.home-content{
-    .title{
-        h4{
-            margin-top: 10px;
-        }
-    }
-}
-.m-container{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.row{
-    padding: 10px;
-}
-.menu-home{
-    background-image: url("../image/background-search.jpeg");
+.menu{
     background-blend-mode: darken;
     background-color: #0000007a;
     background-size: cover;                    
     background-repeat:  no-repeat;
     background-position: center center; 
       width: 100%;
-      height: 500px;
       h2{
           color: white;
-          width: 40%;
-          text-align: center;
+          width: 500px;
       }
     a{
         font-size: $header-font;
@@ -36,34 +16,22 @@
         margin: 0px 10px;
     }
 }
-
-.menu-navbar-home{
+.menu-navbar{
+    background-color: #232a34;
+    height: 60px;
     line-height: 32px;
 }
 
-.logo{
-    padding-left: 30px;
-}
-
-ul{
-    list-style: none;
-    display:inline-flex;
-    margin-right: 10px;
-    li{
-        margin: 0px -5px;
-        line-height: 30px;
-    }
-}
-
-ul.social{
-    padding: 0px 20px;
-    margin: 5px 10px;
-    li{
-        padding: 0px 20px;
-        a{
-            margin: 5px -20px;
-            &:hover {background-color: rgb(29, 27, 27);
-                color: white;}
+.subnavbar{
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px 0px;
+    a{
+        margin: 0px 10px;
+        color:#666;
+        text-decoration: none;
+        &:hover{
+            color: #4a90e2;
         }
     }
 }
@@ -119,16 +87,42 @@ ul.social{
     }
 }
 
-.search{
-    .searchTerm{
-        padding: 10px 60px;
-        border: none;
+.faq-header{
+    background-image: url("../image/faq-background.jpg");
+    height: 350px;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-blend-mode: darken;
+  background-color: #00000036;
+  .header-content{
+      text-align: center;
+    padding-top: 120px;
+    h1{
+        margin: 10px 0px;
     }
-    .searchButton{
-        background-color: white;
-        border: none;
-        padding: 9.7px 10px;
-        margin-left: -5px;
+    h1,h3{
+        margin-bottom: 15px;
+        color: white;
     }
+    h3{
+        width: 50%;
+        margin-left: 370px;
+    }
+  }
 }
 
+.faq-content{
+    h2{
+        margin-top: 85px;
+        margin-bottom: -20px;
+        font-weight: 700;
+    }
+    .definition-list{
+        margin: 50px 0px;
+        .definition-list-content{
+            color: #666;
+            font-size: 18px;
+        }
+    }
+}
