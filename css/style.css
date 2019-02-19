@@ -541,4 +541,17 @@ ul.social {
     color: #666;
     font-size: 18px; }
 
+.selected li {
+  border-bottom: 1px solid blue; }
+  .selected li a {
+    color: blue; }
+
+.container-center-discover {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.title-discover {
+  margin-top: 20px; }
+
 /*# sourceMappingURL=style.css.map */
