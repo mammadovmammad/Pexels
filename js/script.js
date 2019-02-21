@@ -6,8 +6,14 @@ $(document).ready(function () {
         console.log("salam");
     });
 
-    $('.message a').click(function(){
-        $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
-     });
+    var num = 50;
+
+    $(window).bind('scroll', function () {
+        if ($(window).scrollTop() > num) {
+            $('.menu-home').addClass('fixed');
+        } else {
+            $('.menu-home').removeClass('fixed');
+        }
+    });
 
 });

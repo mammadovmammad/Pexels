@@ -5,6 +5,11 @@
   padding-left: 20px;
   padding-right: 20px; }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  background: black; }
+
 .row {
   padding: 10px; }
 
@@ -131,10 +136,17 @@ ul.social {
   height: 60px;
   line-height: 32px; }
 
+.fixed {
+  position: fixed;
+  height: auto;
+  width: 100%;
+  z-index: 100; }
+
 .subnavbar {
   text-align: center;
   background-color: #f9f9f9;
-  padding: 20px 0px; }
+  padding: 20px 0px;
+  margin-top: 60px; }
   .subnavbar a {
     margin: 0px 10px;
     color: #666;

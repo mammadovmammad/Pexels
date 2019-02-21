@@ -1,5 +1,7 @@
 @import 'variables';
 
+
+
 .home-content{
     .title{
         h4{
@@ -10,6 +12,12 @@
 .m-container{
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.fixed{
+    position:fixed;
+    top:0;
+    background: black;
 }
 
 .row{
