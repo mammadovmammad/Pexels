@@ -558,11 +558,6 @@ ul.social {
     color: #666;
     font-size: 18px; }
 
-.selected li {
-  border-bottom: 1px solid blue; }
-  .selected li a {
-    color: blue; }
-
 .card {
   border: none; }
   .card span {
