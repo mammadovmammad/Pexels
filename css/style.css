@@ -154,6 +154,11 @@ ul.social {
     .subnavbar a:hover {
       color: #4a90e2; }
 
+.active {
+  color: #4a90e2 !important;
+  border-bottom: 2px solid #4a90e2;
+  margin-top: 10px; }
+
 .dropbtn {
   padding: 16px;
   font-size: 16px;
@@ -557,6 +562,15 @@ ul.social {
   border-bottom: 1px solid blue; }
   .selected li a {
     color: blue; }
+
+.card {
+  border: none; }
+  .card span {
+    color: #666; }
+
+.collections {
+  margin-bottom: 50px;
+  padding: 0px 45px; }
 
 .container-center-discover {
   width: 1170px;
