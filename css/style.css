@@ -575,4 +575,31 @@ ul.social {
 .title-discover {
   margin-top: 20px; }
 
+.search-category {
+  margin-bottom: 30px; }
+  .search-category a {
+    position: relative; }
+    .search-category a:hover span.search-category-more {
+      opacity: 1; }
+    .search-category a .card-img-top {
+      width: 85%;
+      border-radius: 15px; }
+    .search-category a h4 {
+      position: absolute;
+      top: 20px;
+      left: 40px;
+      color: white; }
+    .search-category a span {
+      position: absolute;
+      z-index: 1;
+      bottom: 20px;
+      right: 45px;
+      font-size: 26px;
+      font-weight: 700;
+      color: #fff;
+      text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+      line-height: .3;
+      opacity: 0;
+      transition: all .3s; }
+
 /*# sourceMappingURL=style.css.map */
