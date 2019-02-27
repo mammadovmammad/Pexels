@@ -11,6 +11,8 @@
         .card-img-top {
             width: 85%;
             border-radius: 15px;
+            max-height: 150px;
+            object-fit: cover;
         }
         h4{
             position: absolute;

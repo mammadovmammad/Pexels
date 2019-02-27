@@ -2,6 +2,9 @@
 
 .card{
     border: none;
+    .card-img-top{
+        border-radius:8px;
+    }
     span{
         color: #666;
     }
