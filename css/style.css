@@ -624,4 +624,14 @@ ul.social {
       bottom: 0px;
       right: 0px; }
 
+.title-search {
+  margin-top: 6%; }
+  .title-search h3 {
+    margin-left: 1.5%; }
+
+.title-popular-photos {
+  margin-top: 2%; }
+  .title-popular-photos h3 {
+    margin-left: 1.5%; }
+
 /*# sourceMappingURL=style.css.map */

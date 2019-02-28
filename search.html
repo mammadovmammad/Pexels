@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pulsuz fotoşəkillər - Pexels</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+    
     <header>
-        <div class="menu-home">
-            <div class="row menu-navbar-home">
+        <div class="menu fixed">
+            <div class="row menu-navbar">
                 <div class="col-lg-6 logo">
                     <img src="image/logo.jpg" width="30" height="30" alt="">
                     <a class="logotxt" href="index.html">Pexels</a>
@@ -62,45 +61,54 @@
                     </ul>
                 </div>
             </div>
-            <div class="search">
-                <div class="row d-flex justify-content-center">
-                    <h2>İstedadlı fotoqraflar tərəfindən paylaşılan ən yaxşı pulsuz fotoşəkilləri.</h2>
-                </div>
-                <div class="row d-flex justify-content-center">
-                    <div class="wrap">
-                        <div class="search">
-                            <input type="text" class="searchTerm" placeholder="Pulsuz fotoşəkil axtarın">
-                            <button type="submit" class="searchButton">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="search">
-
         </div>
     </header>
 
-    <main>
-        <div class="home-content m-container">
-            <div class="title">
-                <h4>Pulsuz Foto şəkil</h4>
-            </div>
-            <div class="photos">
-                <div class="photos-column">
-                    <article class="photo-item"></article>
+    <div class="title-search">
+        <h3>Breakfast time</h3>
+    </div>
+
+    <div class="photos">
+        <div class="row">
+
+                <div class="col-lg-4 photos-column">
+
+                    <div class="image-div mb-3">
+                        <img src="./image/collection-photo1.jpeg" alt="">
+                        <i class="fas fa-plus-circle"></i>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="image-div mb-3">
+                        <img src="./image/collection-photo1.jpeg" alt="">
+                    </div>
+                    <div class="image-div mb-3">
+                        <img src="./image/collection-photo2.jpeg" alt="">
+                    </div>
                 </div>
-                <div class="photos-column"></div>
-                <div class="photos-column"></div>
+
+                <div class="col-lg-4 photos-column">
+
+                    <div class="image-div mb-3">
+                        <img src="./image/collection-photo2.jpeg" alt="">
+                    </div>
+                    <div class="image-div mb-3">
+                        <img src="./image/collection-photo1.jpeg" alt="">
+                    </div>
             </div>
+
+                <div class="col-lg-4 photos-column">
+
+                    <div class="image-div mb-3">
+                        <img src="./image/collection-photo3.jpeg" alt="">
+
+                    </div>
+                    <div class="image-div mb-3">
+                        <img src="./image/collection-photo2.jpeg" alt="">
+                    </div>
+            </div>
+
         </div>
-    </main>
+    </div>
 
-    <footer></footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/script.js"></script>
 </body>
-
 </html>
