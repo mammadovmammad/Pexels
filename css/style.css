@@ -1,9 +1,6 @@
 .home-content .title h4 {
-  margin-top: 10px; }
-
-.m-container {
-  padding-left: 20px;
-  padding-right: 20px; }
+  margin: 20px 20px;
+  margin-bottom: -2px; }
 
 .fixed {
   position: fixed;
