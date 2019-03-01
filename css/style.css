@@ -631,4 +631,41 @@ ul.social {
   .title-popular-photos h3 {
     margin-left: 1.5%; }
 
+.mt-40 {
+  margin-top: 40px; }
+
+.mt-100 {
+  margin-top: 100px; }
+
+.image-section {
+  padding-left: 40px;
+  padding-right: 40px; }
+  .image-section .image {
+    margin-left: 100px; }
+    .image-section .image img {
+      height: auto;
+      width: auto;
+      max-width: 500px;
+      max-height: 600px; }
+
+.content {
+  color: #555; }
+  .content a {
+    color: #555;
+    text-decoration: none; }
+  .content .col-lg-7 {
+    padding: 0; }
+  .content .button-download {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #05a081; }
+  .content .like .button-like {
+    background: #f9f9f9;
+    border-color: #eee;
+    padding: 10px 15px; }
+    .content .like .button-like i {
+      color: #555;
+      font-size: 20px; }
+
 /*# sourceMappingURL=style.css.map */
