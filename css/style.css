@@ -616,10 +616,6 @@ ul.social {
     .photos .photos-column .image-div img {
       width: 100%;
       height: 100%; }
-    .photos .photos-column .image-div i {
-      position: absolute;
-      bottom: 0px;
-      right: 0px; }
 
 .title-search {
   margin-top: 6%; }
@@ -630,6 +626,25 @@ ul.social {
   margin-top: 2%; }
   .title-popular-photos h3 {
     margin-left: 1.5%; }
+
+.image-div:hover .photo-buttons {
+  opacity: 1; }
+
+.photo-buttons {
+  width: 14%;
+  position: absolute;
+  font-size: 20px;
+  right: 0%;
+  bottom: 2%;
+  opacity: 0;
+  transition: all .3s; }
+  .photo-buttons a {
+    color: white; }
+    .photo-buttons a i {
+      text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+      line-height: .3; }
+  .photo-buttons a.right-like-button {
+    margin-left: 10px; }
 
 .mt-40 {
   margin-top: 40px; }
