@@ -1,9 +1,4 @@
-.menu{
-    background-blend-mode: darken;
-    background-color: #0000007a;
-    background-size: cover;                    
-    background-repeat:  no-repeat;
-    background-position: center center; 
+.menu{ 
     width: 100%;
     h2{
           color: white;
@@ -20,6 +15,13 @@
     background-color: #232a34;
     height: 60px;
     line-height: 32px;
+    a.logotxt{
+        margin-right: 10px;
+        color: white;
+        span{
+            padding-left: 10px;
+        }
+    }
 }
 
 .fixed{
@@ -150,7 +152,6 @@
     padding-left: 100px;
     padding-right: 100px;
 
-    
     .footer-list-pexels{
         padding: 40px 0px;
         a{
@@ -221,7 +222,4 @@
             }
         }
     }
-    
-    
-    
 }
